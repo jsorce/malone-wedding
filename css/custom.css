@@ -1,0 +1,28 @@
+#mainNav {
+    transition: ease all .3s;
+}
+
+
+header.masthead {
+    background-image: url('../img/bg.jpg');
+}
+
+@media screen and (max-width: 900px) {
+    header.masthead {
+        background-position: inherit;
+        text-align: center;
+    }
+    
+    header.masthead .intro-text {
+        padding-top: 70px;
+        padding-bottom: 180px;
+    }
+
+    header.masthead .intro-text .intro-lead-in {
+        display: none;
+    }
+
+    header.masthead .intro-text .intro-heading {
+        margin-bottom: 50px;
+    }
+}
